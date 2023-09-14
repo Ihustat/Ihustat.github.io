@@ -47,3 +47,43 @@ a {
     height: 400px;
     object-fit: cover;
 }
+
+@media (max-width: 1001px) {
+   .project-line__descr {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+   }
+    
+   .project-line__wrapper {
+    flex-direction: column;
+}
+
+.project-line__img {
+    margin-top: 30px;
+    width: 100%;
+}
+}
+
+
+@media (max-width: 769px) {
+    .project-line__title {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+    .project-line__text {
+        font-size: 10px;
+        line-height: 11px;
+    }
+}
+
+
+@media (max-width: 481px) {
+    .project-line__descr {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center;
+    }
+
+}
