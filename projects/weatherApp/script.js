@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
           input = popup.querySelector('.popup__input'),
           errorMessage = popup.querySelector('.error-message'),
           locatorBtn = document.querySelector('.popup__location-btn'),
-          apiLink = 'http://api.weatherapi.com/v1/current.json?key=a01ccd96aca24f04b3b114424231310&q=',
+          apiLink = 'https://api.weatherapi.com/v1/current.json?key=a01ccd96aca24f04b3b114424231310&q=',
           weatherParams = {};
 
     let isFirst = true;
